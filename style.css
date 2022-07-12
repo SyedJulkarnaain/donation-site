@@ -80,3 +80,17 @@ p {
     text-align: center;
 }
 
+.plan-part {
+    padding: 60px;
+    font-size: 25px;
+    text-align: center;
+    justify-content: center;
+}
+
+.flex-box-area{
+    display: flex;
+}
+
+.flex-box1 {
+    border: 0ch;
+}
