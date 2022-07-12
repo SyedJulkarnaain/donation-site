@@ -89,6 +89,8 @@ p {
 
 .flex-box-area{
     display: flex;
+    justify-content: center;
+    justify-content: space-around;
 }
 
 .flex-box1 {
