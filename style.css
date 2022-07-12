@@ -32,7 +32,9 @@ p {
     background-color: rgb(255, 74, 74);
     border-radius: 5px;
     font-weight: 700;
+    justify-content: center;
 }
+
 .half-width {
     padding: 60px;
     font-size: 25px;
@@ -40,9 +42,41 @@ p {
     justify-content: center;
 }
 
-.amount{
+.amount {
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
-    border: 3px solid;
+    padding-top: 16px;
+    margin-left: 90px;
+    margin-right: 90px;
+    color: gray;
+    gap: 100px 2px;
 }
+
+.box {
+    padding: 10px 10px;
+}
+
+#color-box {
+    padding: 15px;
+    border: 1.5px solid rgb(255, 113, 113);
+    background-color: rgb(255, 199, 217);
+
+}
+
+.other-part {
+    padding-top: 30px;
+    text-align: center;
+    color: rgb(163, 163, 163);
+    font-size: 20px;
+}
+
+.line-break {
+    width: 50%;
+}
+
+.other {
+    padding-top: 20px;
+    text-align: center;
+}
+
