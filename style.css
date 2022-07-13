@@ -28,11 +28,12 @@ p {
     text-decoration: none;
     color: white;
     border: 0ch;
-    font-size: 25px;
+    font-size: 20px;
     background-color: rgb(255, 74, 74);
     border-radius: 5px;
     font-weight: 700;
     justify-content: center;
+
 }
 
 .half-width {
@@ -87,12 +88,31 @@ p {
     justify-content: center;
 }
 
-.flex-box-area{
+.flex-box-area {
     display: flex;
     justify-content: center;
     justify-content: space-around;
+    gap: 30px 1px;
 }
 
-.flex-box1 {
+.flex-box {
     border: 0ch;
+    width: 30%;
+    margin-right: 30px;
+    margin-left: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+#box1{
+    background-color: rgb(198, 241, 255);
+}
+
+#box2{
+    background-color: rgb(255, 212, 220);
+}
+
+#box3{
+    background-color: rgb(255, 255, 214);
 }
