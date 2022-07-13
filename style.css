@@ -104,17 +104,17 @@ p {
     display: inline-block;
 }
 
-#box1{
+#box1 {
     background-color: rgb(198, 241, 255);
 }
 
-#box2{
+#box2 {
     background-color: rgb(255, 212, 220);
 }
 
-#box3{
+#box3 {
     background-color: rgb(255, 255, 214);
-}   
+}
 
 .depend-area {
     display: flex;
@@ -143,5 +143,37 @@ p {
 }
 
 .update {
+    padding: 60px;
+    font-size: 25px;
+    text-align: center;
     justify-content: center;
+}
+
+.mail-box {
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    padding-bottom: 20px;
+}
+
+.form {
+    width: 250px;
+    height: 42px;
+    background-color: rgb(230, 224, 224);
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    margin-bottom: 0%;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#end-text {
+    font-family: 'Lobster', cursive;
+    color: rgb(255, 14, 14);
+    font-size: 35px;
+
 }
